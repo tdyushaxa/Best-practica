@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #16A085;
+}
+
+
+.box{
+    width: 700px;
+    height: 500px;
+    background: #fff ;
+    margin-top: 80px;
+    margin-right:auto;
+    margin-left: auto;
+    background-image: url(../image/bicycle.png);
+    background-position-y: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.item_top{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.item_top_heading{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"Mulish";
+    line-height: 56px;
+}
+.item_top_image{
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #E9E9E9;
+}
+.item_top_text{
+
+    font-size: 18px;
+    color: #B4BABE;
+    font-weight: 300;
+    font-family:"Mulish";
+    line-height: 56px;
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_heading{
+    font-weight: 600;
+    font-family: 'Mulish';
+    line-height: 56px;
+    color: #74767F;
+}
+.heading{
+    font-weight: 700;
+    font-family: 'Mulish';
+    line-height: 56px;
+    font-size: 24px;
+    color: #000000;
+}
